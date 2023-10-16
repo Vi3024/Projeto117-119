@@ -1,0 +1,98 @@
+/* h1 {
+    font-family: 'Bitter', serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    background-image: linear-gradient(rgb(248, 124, 145), rgb(255, 16, 56));
+    margin: 10px;
+    width: 100%;
+}
+
+body {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+canvas {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: degrade;
+    animation-duration: 2s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes degrade {
+    from {
+        box-shadow: 3px 3px 38px rgb(63, 26, 224);
+    }
+
+    to {
+        box-shadow: 3px 3px 38px rgb(140, 17, 255);
+    }
+}
+
+p {
+    font-size: 18px;
+} */
+body
+{
+background-color:#a9f04b;
+}
+
+h1
+{
+  font-family: 'Arial', sans-serif;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#sketchName
+{
+  color:red;
+}
+
+#showSketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Arial', sans-serif;
+    font-size:25px;
+    
+  }
+
+#score
+{
+  font-size:35px;
+  margin-left: 20px;
+}
+
+#time
+{
+  font-size:35px;
+  float: right;
+  margin-right: 20px;
+}
